@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Syndicate Hub
 
-# Run and deploy your AI Studio app
+A student-founded digital ecosystem powering media, entertainment, and influence through scalable ICT infrastructure.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/b2a4c847-af61-45c1-b1d9-ab9284e9d805
+- **Tech-First Model**: Proprietary ICT infrastructure powering all divisions.
+- **Media & Production**: High-end videography, photography, and graphic design.
+- **Entertainment**: Digitized event execution and audience experience.
+- **Marketing & Growth**: Data-driven campaign strategies and brand positioning.
+- **Fully Responsive**: Optimized for mobile, tablet, and desktop.
+- **Animated UI**: Smooth transitions and background particle effects using Framer Motion.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **React 19**
+- **Vite**
+- **Tailwind CSS 4**
+- **Framer Motion**
+- **Lucide Icons**
 
+## 📦 Deployment
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Deploy to Netlify (Recommended)
+
+This project includes a `netlify.toml` file for easy deployment.
+
+1. Push this code to a GitHub repository.
+2. Connect the repository to [Netlify](https://www.netlify.com/).
+3. Netlify will automatically build and deploy the site.
+
+### Deploy to GitHub Pages
+
+1. Update `vite.config.ts` to include `base: '/your-repo-name/'` if hosting on a project site.
+2. Use the `gh-pages` package or a GitHub Action to deploy.
+
+## 👤 Founder
+
+**Alex Raymond Maina**
+Student @ JNNP.AC.KE
+Contact: syndicatehubb@gmail.com | WhatsApp: +254 114975008
